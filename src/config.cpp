@@ -3,7 +3,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredAddons[] = {"A3_Data_F"};
-        author = "YourName";
+        author = "Azat";
         version = "1.0";
     };
 };
