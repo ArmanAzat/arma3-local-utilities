@@ -22,3 +22,10 @@ If you don't have a PBO Manager or want to inspect/modify the SQF scripts direct
 * You can modify the scripts and pack them using **PBO Manager**, **Mikero's Tools**, or the official **Arma 3 Tools**.
 
 > **Note:** Ensure target server runs with `allowSignatures = 0` (unsigned mods allowed).
+> > [!NOTE]
+> **Feedback & Contributions Welcome!**
+> Feel free to edit, modify, or use this addon however you like. Since I'm still learning Arma 3 SQF scripting, I'd really appreciate any feedback, bug reports, or advice on how to improve the code.
+> >
+> > > [!WARNING]
+> **Important Note on Recompiling:**
+> If you unpack and rebuild the PBO yourself, make sure your PBO Manager sets the prefix to `pp_markers`. If you use a custom prefix, update the script directory path inside `config.cpp` accordingly, otherwise the `execVM` call will fail to locate `init_sys.sqf`.
