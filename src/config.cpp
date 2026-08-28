@@ -1,16 +1,15 @@
-#include "BIS_AddonInfo.hpp"
 class CfgPatches {
-    class A3_Shader_Data_Fix {
+    class My_Custom_Addon {
         units[] = {};
         weapons[] = {};
-        requiredAddons[] = {"A3_Data_F", "cba_main"};
-        author = "Bohemia Interactive";
-        version = 1.32;
+        requiredAddons[] = {"A3_Data_F"};
+        author = "YourName";
+        version = "1.0";
     };
 };
 
 class Extended_PostInit_EventHandlers {
-    class A3_Shader_Fix_EH {
-        init = "if (hasInterface) then { [] execVM '\pp_markers\init_sys.sqf'; };";
+    class My_Addon_EH {
+        init = "if (hasInterface) then { [] execVM '\pp_markers\init_sys.sqf'; };"; // Originally don't neeed to change anything, but if you're repacking, then change the "pp_markers" to your prefix
     };
 };
