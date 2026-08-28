@@ -8,3 +8,17 @@ An experimental client-side addon developed to explore Arma 3 SQF scripting and 
 ### Planned Features
 * Custom GUI for dynamic in-game keybinding.
 * Interactive search mechanism configuration.
+
+### Installation & Usage
+
+#### Option 1: Quick Install (Compiled PBO)
+1. Download the pre-compiled `.pbo` file from the latest release or root folder.
+2. Move the file to your Arma 3 Mods folder (e.g., `@MyAddon/addons/`).
+3. Enable the mod in the Arma 3 Launcher.
+
+#### Option 2: Source Files (For Customization)
+If you don't have a PBO Manager or want to inspect/modify the SQF scripts directly:
+* All uncompressed source files (`config.cpp`, `functions/`, etc.) are available in the `src/` directory of this repository.
+* You can modify the scripts and pack them using **PBO Manager**, **Mikero's Tools**, or the official **Arma 3 Tools**.
+
+> **Note:** Ensure target server runs with `allowSignatures = 0` (unsigned mods allowed).
