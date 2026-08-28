@@ -3,4 +3,5 @@ An experimental client-side addon developed to explore Arma 3 SQF scripting and 
 There are several limitations, since it's the first version:
 - Hardcoded keybinds and search logic (planned to be dynamic in future updates).
 - Requires server configuration with allowSignatures = 0 (unsigned mod support) and optional BattlEye relaxation due to client-side loading.
+
 Maybe I'll add custom UI/GUI for in-game keybinds and search mechanism configuration
